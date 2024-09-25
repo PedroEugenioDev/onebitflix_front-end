@@ -74,3 +74,14 @@
       padding: 10px 24px;
     }
   }
+  @media (max-width: 367px) {
+    .titleAccess {
+      font-size: 14px;
+    }
+    .title {
+      font-size: 20px;
+    }
+    .description {
+      font-size: 12px;
+    }
+  }
