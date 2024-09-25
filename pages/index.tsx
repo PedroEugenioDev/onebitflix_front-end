@@ -2,8 +2,7 @@ import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from "@/styles/HomeNoAuth.module.scss"
 import HeaderNoAuth from "@/src/components/HomeNoAuth/HeaderNoAuth";
-
-
+import PresentationSection from "@/src/components/HomeNoAuth/presentationSection";
 
 export default function HomeNoAuth() {
   return (
@@ -15,7 +14,10 @@ export default function HomeNoAuth() {
 				<meta name="description" content="Tenha acesso aos melhores conteúdos sobre programação de uma forma simples e fácil." />
       </Head>
       <main>
-        <HeaderNoAuth></HeaderNoAuth>
+        <div className={styles.sectionBackground}>
+          <HeaderNoAuth />
+          <PresentationSection />
+        </div>
       </main> 
     </>
   );
