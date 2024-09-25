@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import styles from "@/styles/HomeNoAuth.module.scss"
 import HeaderNoAuth from "@/src/components/HomeNoAuth/HeaderNoAuth";
 import PresentationSection from "@/src/components/HomeNoAuth/presentationSection";
+import CardsSection from "@/src/components/HomeNoAuth/cardsSection";
 
 export default function HomeNoAuth() {
   return (
@@ -18,6 +19,7 @@ export default function HomeNoAuth() {
           <HeaderNoAuth />
           <PresentationSection />
         </div>
+        <CardsSection/>
       </main> 
     </>
   );
