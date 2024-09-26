@@ -11,11 +11,14 @@ const SlideCard = function ({ course }: props) {
       <>
         <Link href={`/courses/${course.id}`}>
           <div className={styles.slide}>
-            <img
-              src={`${process.env.NEXT_PUBLIC_BASEURL}/${course.thumbnailUrl}`}
-              alt={course.name}
-              className={styles.slideImg}
-            />
+            <div className={styles.imgContainer}>
+              <img
+                src={`${process.env.NEXT_PUBLIC_BASEURL}/${course.thumbnailUrl}`}
+                alt={course.name}
+                className={styles.slideImg}
+              />
+            </div>
+
             <p className={styles.slideTitle}>{course.name}</p>
             <p className={styles.slideDescription}>{course.synopsis}</p>
           </div>

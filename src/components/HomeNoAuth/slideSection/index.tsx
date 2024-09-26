@@ -10,7 +10,7 @@ interface props {
   
   const SlideSection = function ({ newestCourses }: props) {
     return <>
-        <Container fluid>
+        <Container className="d-flex flex-column align-items-center py-5">
             <p className={styles.sectionTitle}>AULAS JÁ DISPONÍVEIS</p>
             <SlideComponent courses={newestCourses} />
             <Link href="/register">
