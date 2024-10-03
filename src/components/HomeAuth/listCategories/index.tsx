@@ -1,5 +1,5 @@
 import useSWR from "swr";
-import categoriesService from "@/src/services/categoryServices";
+import categoriesService, { CategoryType } from "@/src/services/categoryServices";
 import ListCategoriesSlide from "../categoriesSlide";
 
 const listCategories = function () {
