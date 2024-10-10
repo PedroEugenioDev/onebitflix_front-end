@@ -13,8 +13,8 @@ const NewestCategory = function () {
 
     return 	<>
         <p className={styles.titleCategory}>MINHA LISTA</p>
-        {data.data.courses.lenght >= 1 ? 
-            (<SlideComponent courses={data.data} />) : 
+        {data.data.courses.length >= 1 ? 
+            (<SlideComponent courses={data.data.courses} />) : 
             (
                 <p className="h5 text-center pt-3">
                     <strong>Você não tem nenhum curso na lista</strong>
