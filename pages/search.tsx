@@ -48,18 +48,22 @@ const Search = function () {
         <div className={styles.header}>
           <HeaderAuth />
         </div>
-        <section className={styles.mainContent}>
-          {searchResult.length >= 1 ? (
-              <Container className="d-flex flex-wrap justify-content-center gap-5 py-4">
-                {searchResult?.map((course) => (
-                    <SearchCard key={course.id} course={course} />
-              ))}
-              </Container>
-            ) : (
-            <p className={styles.noSearchText}>Nenhum resultado encontrado!</p>
-            )
-          }
-        </section>
+
+        <div>
+          <p className={styles.searchTitle}>Resultados para: {searchName}</p>
+          <section className={styles.mainContent}>
+            {searchResult.length >= 1 ? (
+                <Container className="d-flex flex-wrap justify-content-center gap-5 py-4">
+                  {searchResult?.map((course) => (
+                      <SearchCard key={course.id} course={course} />
+                ))}
+                </Container>
+              ) : (
+              <p className={styles.noSearchText}>Nenhum resultado encontrado!</p>
+              )
+            }
+          </section>
+        </div>
         <div className={styles.footer}>
           <Footer />
         </div>
