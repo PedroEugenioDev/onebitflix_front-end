@@ -49,3 +49,65 @@ Projeto final do curso Programador Full-Stack Javascript Profisional da escola d
 
 
 ## 📸 Videos e Imagens
+
+### Desktop
+
+<p align="center"><em>Landing Page & Home Page</em></p>
+<div align="center">
+    <img src="/assets/homepage.png" alt="" title="Landing Page" align="top" width="480px" hspace="10">
+    <img src="/assets/homepage_auth.png" alt="" title="Homepage" align="top"  width="480px" hspace="10">
+</div>
+<br>
+<p align="center"><em>Página de registro e Página de Login</em></p>
+<div align="center">
+    <img src="/assets/register.png" alt="" title="Landing Page" align="top" width="480px" hspace="10">
+    <img src="/assets/login.png" alt="" title="Homepage" align="top"  width="480px" hspace="10">
+</div>
+<br>
+<p align="center"><em>Páginas de perfil do usuário</em></p>
+<div align="center">
+    <img src="/assets/profile_data.png" alt="" title="Landing Page" align="top" width="480px" hspace="10">
+    <img src="/assets/profile_password.png" alt="" title="Homepage" align="top"  width="480px" hspace="10">
+</div>
+<br>
+<p align="center"><em>Página de curso & Página de episódio</em></p>
+<div align="center">
+    <img src="/assets/course.png" alt="" title="Landing Page" align="top" width="480px" hspace="10">
+    <img src="/assets/episode.png" alt="" title="Homepage" align="top"  width="480px" hspace="10">
+</div>
+<br>
+<p align="center"><em>Página de resultado de busca</em></p>
+<div align="center">
+    <img src="/assets/search.png" alt="" title="Landing Page" align="top" width="480px" hspace="10">
+</div>
+
+### Mobile
+
+<p align="center"><em>Landing Page & Home Page</em></p>
+<div align="center">
+    <img src="/assets/homepage_mobile.png" alt="" title="Landing Page" align="top" width="400px" hspace="10">
+    <img src="/assets/homepage_auth_mobile.png" alt="" title="Homepage" align="top"  width="400px" hspace="10">
+</div>
+<br>
+<p align="center"><em>Página de registro e Página de Login</em></p>
+<div align="center">
+    <img src="/assets/register_mobile.png" alt="" title="Landing Page" align="top" width="400px" hspace="10">
+    <img src="/assets/login_mobile.png" alt="" title="Homepage" align="top"  width="400px" hspace="10">
+</div>
+<br>
+<p align="center"><em>Páginas de perfil do usuário</em></p>
+<div align="center">
+    <img src="/assets/profile_data_mobile.png" alt="" title="Landing Page" align="top" width="400px" hspace="10">
+    <img src="/assets/profile_password_mobile.png" alt="" title="Homepage" align="top"  width="400px" hspace="10">
+</div>
+<br>
+<p align="center"><em>Página de curso & Página de episódio</em></p>
+<div align="center">
+    <img src="/assets/course_mobile.png" alt="" title="Landing Page" align="top" width="400px" hspace="10">
+    <img src="/assets/episode_mobile.png" alt="" title="Homepage" align="top"  width="400px" hspace="10">
+</div>
+<br>
+<p align="center"><em>Página de resultado de busca</em></p>
+<div align="center">
+    <img src="/assets/search_mobile.png" alt="" title="Landing Page" align="top" width="400px" hspace="10">
+</div>
