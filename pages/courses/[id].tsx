@@ -17,7 +17,7 @@ const CoursePage = function () {
     const [favorited, setFavorited] = useState(false);
     const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
+/*     useEffect(() => {
         if (!sessionStorage.getItem("onebitflix-token")) {
             router.push("/login");
         } else {
@@ -27,7 +27,7 @@ const CoursePage = function () {
 
     if (loading) {
         return <PageSpinner />;
-    }
+    } */
 
     const getCourse = async function () {
         if (typeof id !== "string") return;
