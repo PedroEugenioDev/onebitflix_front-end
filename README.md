@@ -11,21 +11,37 @@ Projeto final do curso Programador Full-Stack Javascript Profisional da escola d
 
 ## 🔑 Funcionalidades
 
-- Landing page para promoção do sistemas de ensino EAD 
+- Landing page para promoção do sistemas de ensino EAD com componentes de slides para divulgação dos cursos
 - Página de registro
 - Página de login
 - Autenticação de usuário com JWT
 - Páginas autenticadas:
-    - Homepage do usuário como slides de divulgação de cursos
-    - Página de perfil de usuário para atualização de dados e senha
+    - Cabeçalho customizado com dados do usuário e componente Toast para menu de usuário    
+    - Homepage do usuário como seção de destaque e slides de divulgação de cursos
+    - Página de perfil de usuário para atualização de dados e senha, com renderização condicional dos formulários
     - Página de cursos com listágem de episódios
     - Página de episódios com streaming de vídeo protegido
     - Página de buscas com resultados dispostos em grid 
 - Integração com Back-end através de services
+- Responsividade em todos as páginas para diverentes tamanhpos de tela
 
 ## 💭 Processo
 
-- 
+- Criação do projeto Next.js, instalação da dependencias de projeto e de desenvolvimento e organização de diretórios
+- Todas as páginas desenvolvidas seguiam o seguinte padrão de desenvolvimento:
+    - Criação de um ou mais services para interação com o back-end via API
+    - Criação dos componentes (eram criados novos componentes, caso já não houvesse um componente reaproveitável)
+    - Estruturação da página e uso dos componentes
+    - Estilização da página e ajustes de responsividade
+- Essas etapas foram feitos em todas as páginas na seguinte ordem:
+    - Landing page
+    - Home Page autenticada
+    - Página de Registro
+    - Página de Login
+    - Página de perfil do usuário
+    - Página de busca
+    - página individual de curso
+    - página individual de episódio          
 
 ## 📚 Aprendizado
 
@@ -37,6 +53,7 @@ Projeto final do curso Programador Full-Stack Javascript Profisional da escola d
     - Splide.js
     - Axios para consumo de API
     - AOS para animações
+    - Streaming de dados
 
 
 ## 🚦 Executando o projeto
